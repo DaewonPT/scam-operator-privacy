@@ -70,17 +70,18 @@ section[lang]{display:none}
 
 <section lang="en" class="card">
 <h1>Privacy policy</h1>
-<p class="mut">Last updated: October 18, 2026</p>
+<p class="mut">Last updated: October 19, 2026</p>
 
 <p>This policy explains what information the game <b>SCAM Operator</b> (the Android app and the web version) uses and stores. In short: <b>the game works with no account, no ads and no personal data collection</b>. There are only a few exceptions, all described below: the global leaderboard (optional), anonymous statistics (optional and off by default) and the check for game updates in the Android app.</p>
 
 <h2>1. Who is responsible</h2>
-<p>Paulo Cairrão — contact: <a href="mailto:paulo.cairrao96@proton.me">paulo.cairrao96@proton.me</a></p>
+<p>Paulo Cairrão — contact: <a href="mailto:scamoperatordev.related274@passinbox.com">scamoperatordev.related274@passinbox.com</a></p>
 
 <h2>2. What stays on your device only</h2>
 <ul>
   <li>Your progress (money, stages, achievements, settings, operator name, language, difficulty, daily-reward streak, the optional reminder setting and the 3 save slots) is stored <b>only on your device</b> (the app's local storage).</li>
   <li>This information is not sent to anyone. If you uninstall the app or use "Erase all game data" in Settings, it is erased.</li>
+  <li>The game also keeps, on your device only, a backup copy of the last good save of each slot and, if you set one, the PIN that locks the casino (stored scrambled). If you save your game to a file, the file stays wherever you choose.</li>
 </ul>
 
 <h2>3. Global leaderboard (optional)</h2>
@@ -88,10 +89,11 @@ section[lang]{display:none}
 <ul>
   <li>the <b>operator name</b> you chose (up to 13 characters; don't use your real name if you'd rather not), preceded by 🪶 if you played on Easy or by 💀 if you played on Hardcore (Hardcore runs are only sent if you win);</li>
   <li>your final money, play time and number of escapes;</li>
-  <li>a <b>random game identifier</b> (generated on your device, not linked to your identity), the number of a pre-written phrase (the closing quote of your run), and a date.</li>
+  <li>a <b>random game identifier</b> (generated on your device, not linked to your identity), the number of a pre-written phrase (the closing quote of your run), and a date;</li>
+  <li>a random <b>device key</b>, created on your device. The server keeps only a scrambled version of it (a SHA-256 hash), which is never shown to anyone; it lets you delete your own entries from inside the game.</li>
 </ul>
 <p>This data is used only to show the leaderboard (Top 200) to all players. The server runs on the Cloudflare Workers platform. To prevent abuse, your IP address is used <b>temporarily</b> (about 60 seconds) to limit how often scores can be sent and is <b>not stored</b> with your score.</p>
-<p>When the option is off, nothing is sent. You can ask for an entry to be removed by writing to the contact above, with the operator name you used.</p>
+<p>The server checks that scores are plausible and hides offensive names. When the option is off, nothing is sent. You can delete your entries in Settings → General → Privacy and my data, or ask for an entry to be removed by writing to the contact above, with the operator name you used.</p>
 
 <h2>4. Anonymous statistics (optional, off by default)</h2>
 <p>This option comes <b>off</b>. The game may ask you once whether you want to turn it on; nothing is sent unless you say yes. If you turn it on (Settings → General), the game sends our server, now and then, a few game numbers to help understand where the game is too hard, too easy or boring:</p>
@@ -131,22 +133,23 @@ section[lang]{display:none}
 <p>SCAM Operator is an <b>educational satire</b>. The situations, characters, coins and amounts are fictional and the game does not teach real scam techniques; every situation shows the "Real red flag" that exposes it. If you have been the victim of a scam, report it to the police and contact your bank immediately.</p>
 
 <h2>11. Changes</h2>
-<p>If this policy changes, the date at the top will be updated. The version in force is always the one on this page.</p>
+<p>If this policy changes, the date at the top will be updated. The version in force is always the one on this page. This policy is also included in the game (Settings → General → Privacy and my data) and can be read without an internet connection.</p>
 </section>
 
 <section lang="pt" class="card">
 <h1>Política de privacidade</h1>
-<p class="mut">Última atualização: 18 de outubro de 2026</p>
+<p class="mut">Última atualização: 19 de outubro de 2026</p>
 
 <p>Esta política explica que informação o jogo <b>SCAM Operator</b> (a app Android e a versão web) usa e guarda. Resumindo: <b>o jogo funciona sem conta, sem anúncios e sem recolher dados pessoais</b>. Há poucas exceções, todas descritas abaixo: a classificação global (opcional), as estatísticas anónimas (opcionais e desligadas por omissão) e a procura de atualizações do jogo na app Android.</p>
 
 <h2>1. Quem é o responsável</h2>
-<p>Paulo Cairrão — contacto: <a href="mailto:paulo.cairrao96@proton.me">paulo.cairrao96@proton.me</a></p>
+<p>Paulo Cairrão — contacto: <a href="mailto:scamoperatordev.related274@passinbox.com">scamoperatordev.related274@passinbox.com</a></p>
 
 <h2>2. O que fica só no teu dispositivo</h2>
 <ul>
   <li>O teu progresso (dinheiro, fases, conquistas, configurações, nome de operador, idioma, dificuldade, sequência da recompensa diária, a opção do aviso e os 3 slots de gravação) fica guardado <b>apenas no teu dispositivo</b> (armazenamento local da app).</li>
   <li>Esta informação não é enviada a ninguém. Se desinstalares a app ou usares a opção "Apagar todos os dados do jogo" nas Configurações, ela é eliminada.</li>
+  <li>O jogo também guarda, só no teu dispositivo, uma cópia de segurança do último jogo bom de cada slot e, se o definires, o PIN que bloqueia o casino (guardado baralhado). Se guardares o jogo num ficheiro, o ficheiro fica onde escolheres.</li>
 </ul>
 
 <h2>3. Classificação global (opcional)</h2>
@@ -154,10 +157,11 @@ section[lang]{display:none}
 <ul>
   <li>o <b>nome de operador</b> que escolheste (até 13 caracteres; não uses o teu nome real se não quiseres), com 🪶 à frente se jogaste no modo Fácil ou 💀 se jogaste em Hardcore (as runs Hardcore só são enviadas se ganhares);</li>
   <li>o dinheiro final, o tempo de jogo e o número de fugas;</li>
-  <li>um <b>identificador aleatório</b> do jogo (gerado no teu dispositivo, não está ligado à tua identidade), o número de uma frase pré-escrita (a frase de fecho da tua run) e uma data.</li>
+  <li>um <b>identificador aleatório</b> do jogo (gerado no teu dispositivo, não está ligado à tua identidade), o número de uma frase pré-escrita (a frase de fecho da tua run) e uma data;</li>
+  <li>uma <b>chave aleatória do dispositivo</b>, criada no teu dispositivo. O servidor guarda só uma versão baralhada dela (um hash SHA-256), que nunca é mostrada a ninguém; serve para poderes apagar as tuas entradas a partir do jogo.</li>
 </ul>
 <p>Estes dados servem apenas para mostrar a tabela de classificação (Top 200) a todos os jogadores. O servidor funciona na plataforma Cloudflare Workers. Para evitar abusos, o endereço IP é usado <b>temporariamente</b> (cerca de 60 segundos) para limitar o número de envios e <b>não é guardado</b> com a tua pontuação.</p>
-<p>Quando a opção está desligada, não é enviado nada. Podes pedir a remoção de uma entrada escrevendo para o contacto acima, indicando o nome de operador usado.</p>
+<p>O servidor confirma que as pontuações são plausíveis e esconde nomes ofensivos. Quando a opção está desligada, não é enviado nada. Podes apagar as tuas entradas em Configurações → Geral → Privacidade e os meus dados, ou pedir a remoção de uma entrada escrevendo para o contacto acima, indicando o nome de operador usado.</p>
 
 <h2>4. Estatísticas anónimas (opcionais, desligadas por omissão)</h2>
 <p>Esta opção vem <b>desligada</b>. O jogo pode perguntar-te uma vez se a queres ligar; nada é enviado sem dizeres que sim. Se a ligares (Configurações → Geral), o jogo envia de vez em quando ao nosso servidor alguns números do jogo, para ajudar a perceber onde está difícil, fácil ou aborrecido:</p>
@@ -197,22 +201,23 @@ section[lang]{display:none}
 <p>SCAM Operator é uma <b>sátira educativa</b>. As situações, personagens, moedas e valores são fictícios e o jogo não ensina técnicas reais de burla; cada situação mostra o "Sinal de alerta real" que a desmonta. Se foste vítima de burla, denuncia à polícia e contacta o teu banco de imediato.</p>
 
 <h2>11. Alterações</h2>
-<p>Se esta política mudar, a data no topo será atualizada. A versão em vigor é sempre a desta página.</p>
+<p>Se esta política mudar, a data no topo será atualizada. A versão em vigor é sempre a desta página. Esta política também vem dentro do jogo (Configurações → Geral → Privacidade e os meus dados) e pode ser lida sem internet.</p>
 </section>
 
 <section lang="es" class="card">
 <h1>Política de privacidad</h1>
-<p class="mut">Última actualización: 18 de octubre de 2026</p>
+<p class="mut">Última actualización: 19 de octubre de 2026</p>
 
 <p>Esta política explica qué información usa y guarda el juego <b>SCAM Operator</b> (la app de Android y la versión web). En resumen: <b>el juego funciona sin cuenta, sin anuncios y sin recopilar datos personales</b>. Solo hay unas pocas excepciones, todas descritas más abajo: la clasificación global (opcional), las estadísticas anónimas (opcionales y desactivadas por defecto) y la búsqueda de actualizaciones del juego en la app de Android.</p>
 
 <h2>1. Quién es el responsable</h2>
-<p>Paulo Cairrão — contacto: <a href="mailto:paulo.cairrao96@proton.me">paulo.cairrao96@proton.me</a></p>
+<p>Paulo Cairrão — contacto: <a href="mailto:scamoperatordev.related274@passinbox.com">scamoperatordev.related274@passinbox.com</a></p>
 
 <h2>2. Qué se queda solo en tu dispositivo</h2>
 <ul>
   <li>Tu progreso (dinero, fases, logros, ajustes, nombre de operador, idioma, dificultad, racha de la recompensa diaria, la opción del aviso y las 3 ranuras de guardado) se guarda <b>solo en tu dispositivo</b> (almacenamiento local de la app).</li>
   <li>Esta información no se envía a nadie. Si desinstalas la app o usas «Borrar todos los datos del juego» en Ajustes, se elimina.</li>
+  <li>El juego también guarda, solo en tu dispositivo, una copia de seguridad de la última partida buena de cada ranura y, si lo defines, el PIN que bloquea el casino (guardado cifrado). Si guardas la partida en un archivo, el archivo queda donde elijas.</li>
 </ul>
 
 <h2>3. Clasificación global (opcional)</h2>
@@ -220,10 +225,11 @@ section[lang]{display:none}
 <ul>
   <li>el <b>nombre de operador</b> que elegiste (hasta 13 caracteres; no uses tu nombre real si prefieres no hacerlo), precedido de 🪶 si jugaste en Fácil o de 💀 si jugaste en Hardcore (las partidas Hardcore solo se envían si ganas);</li>
   <li>tu dinero final, el tiempo de juego y el número de fugas;</li>
-  <li>un <b>identificador aleatorio</b> de la partida (generado en tu dispositivo, sin relación con tu identidad), el número de una frase preescrita (la frase de cierre de tu partida) y una fecha.</li>
+  <li>un <b>identificador aleatorio</b> de la partida (generado en tu dispositivo, sin relación con tu identidad), el número de una frase preescrita (la frase de cierre de tu partida) y una fecha;</li>
+  <li>una <b>clave aleatoria del dispositivo</b>, creada en tu dispositivo. El servidor guarda solo una versión cifrada (un hash SHA-256), que nunca se muestra a nadie; sirve para que puedas borrar tus entradas desde el juego.</li>
 </ul>
 <p>Estos datos sirven únicamente para mostrar la clasificación (Top 200) a todos los jugadores. El servidor funciona en la plataforma Cloudflare Workers. Para evitar abusos, tu dirección IP se usa <b>temporalmente</b> (unos 60 segundos) para limitar la frecuencia de los envíos y <b>no se guarda</b> junto con tu puntuación.</p>
-<p>Cuando la opción está desactivada, no se envía nada. Puedes pedir que se elimine una entrada escribiendo al contacto indicado arriba, con el nombre de operador que usaste.</p>
+<p>El servidor comprueba que las puntuaciones sean plausibles y oculta nombres ofensivos. Cuando la opción está desactivada, no se envía nada. Puedes borrar tus entradas en Ajustes → General → Privacidad y mis datos, o pedir que se elimine una entrada escribiendo al contacto indicado arriba, con el nombre de operador que usaste.</p>
 
 <h2>4. Estadísticas anónimas (opcionales, desactivadas por defecto)</h2>
 <p>Esta opción viene <b>desactivada</b>. El juego puede preguntarte una vez si quieres activarla; no se envía nada si no dices que sí. Si la activas (Ajustes → General), el juego envía de vez en cuando a nuestro servidor algunos números del juego, para ayudar a entender dónde es difícil, fácil o aburrido:</p>
@@ -263,22 +269,23 @@ section[lang]{display:none}
 <p>SCAM Operator es una <b>sátira educativa</b>. Las situaciones, los personajes, las monedas y las cantidades son ficticios y el juego no enseña técnicas reales de estafa; cada situación muestra la «Señal de alerta real» que la desenmascara. Si has sido víctima de una estafa, denúncialo a la policía y ponte en contacto con tu banco de inmediato.</p>
 
 <h2>11. Cambios</h2>
-<p>Si esta política cambia, se actualizará la fecha de arriba. La versión vigente es siempre la de esta página.</p>
+<p>Si esta política cambia, se actualizará la fecha de arriba. La versión vigente es siempre la de esta página. Esta política también viene dentro del juego (Ajustes → General → Privacidad y mis datos) y se puede leer sin internet.</p>
 </section>
 
 <section lang="fr" class="card">
 <h1>Politique de confidentialité</h1>
-<p class="mut">Dernière mise à jour : 18 octobre 2026</p>
+<p class="mut">Dernière mise à jour : 19 octobre 2026</p>
 
 <p>Cette politique explique quelles informations le jeu <b>SCAM Operator</b> (l'application Android et la version web) utilise et conserve. En résumé : <b>le jeu fonctionne sans compte, sans publicité et sans collecte de données personnelles</b>. Il n'y a que quelques exceptions, toutes décrites ci-dessous : le classement mondial (facultatif), les statistiques anonymes (facultatives et désactivées par défaut) et la recherche de mises à jour du jeu dans l'application Android.</p>
 
 <h2>1. Qui est responsable</h2>
-<p>Paulo Cairrão — contact : <a href="mailto:paulo.cairrao96@proton.me">paulo.cairrao96@proton.me</a></p>
+<p>Paulo Cairrão — contact : <a href="mailto:scamoperatordev.related274@passinbox.com">scamoperatordev.related274@passinbox.com</a></p>
 
 <h2>2. Ce qui reste uniquement sur ton appareil</h2>
 <ul>
   <li>Ta progression (argent, étapes, succès, paramètres, nom d'opérateur, langue, difficulté, série de la récompense quotidienne, l'option du rappel et les 3 emplacements de sauvegarde) est enregistrée <b>uniquement sur ton appareil</b> (stockage local de l'application).</li>
   <li>Ces informations ne sont envoyées à personne. Si tu désinstalles l'application ou utilises « Effacer toutes les données du jeu » dans les Paramètres, elles sont supprimées.</li>
+  <li>Le jeu garde aussi, uniquement sur ton appareil, une copie de sauvegarde de la dernière bonne partie de chaque emplacement et, si tu en définis un, le PIN qui verrouille le casino (enregistré brouillé). Si tu enregistres ta partie dans un fichier, le fichier reste là où tu le choisis.</li>
 </ul>
 
 <h2>3. Classement mondial (facultatif)</h2>
@@ -286,10 +293,11 @@ section[lang]{display:none}
 <ul>
   <li>le <b>nom d'opérateur</b> que tu as choisi (13 caractères maximum ; n'utilise pas ton vrai nom si tu préfères), précédé de 🪶 si tu as joué en mode Facile ou de 💀 si tu as joué en Hardcore (les parties Hardcore ne sont envoyées que si tu gagnes) ;</li>
   <li>ton argent final, ton temps de jeu et ton nombre de fuites ;</li>
-  <li>un <b>identifiant aléatoire</b> de la partie (généré sur ton appareil, sans lien avec ton identité), le numéro d'une phrase préécrite (la citation de fin de ta partie), et une date.</li>
+  <li>un <b>identifiant aléatoire</b> de la partie (généré sur ton appareil, sans lien avec ton identité), le numéro d'une phrase préécrite (la citation de fin de ta partie), et une date ;</li>
+  <li>une <b>clé aléatoire de l'appareil</b>, créée sur ton appareil. Le serveur n'en garde qu'une version brouillée (un hachage SHA-256), jamais montrée à personne ; elle te permet de supprimer tes entrées depuis le jeu.</li>
 </ul>
 <p>Ces données servent uniquement à afficher le classement (Top 200) à tous les joueurs. Le serveur fonctionne sur la plateforme Cloudflare Workers. Pour éviter les abus, ton adresse IP est utilisée <b>temporairement</b> (environ 60 secondes) pour limiter la fréquence des envois et n'est <b>pas conservée</b> avec ton score.</p>
-<p>Quand l'option est désactivée, rien n'est envoyé. Tu peux demander la suppression d'une entrée en écrivant au contact ci-dessus, en indiquant le nom d'opérateur utilisé.</p>
+<p>Le serveur vérifie que les scores sont plausibles et masque les noms injurieux. Quand l'option est désactivée, rien n'est envoyé. Tu peux supprimer tes entrées dans Réglages → Général → Confidentialité et mes données, ou demander la suppression d'une entrée en écrivant au contact ci-dessus, en indiquant le nom d'opérateur utilisé.</p>
 
 <h2>4. Statistiques anonymes (facultatives, désactivées par défaut)</h2>
 <p>Cette option est <b>désactivée</b> au départ. Le jeu peut te demander une fois si tu veux l'activer ; rien n'est envoyé si tu ne dis pas oui. Si tu l'actives (Paramètres → Général), le jeu envoie de temps en temps à notre serveur quelques chiffres de jeu, pour aider à comprendre où il est trop dur, trop facile ou ennuyeux :</p>
@@ -329,22 +337,23 @@ section[lang]{display:none}
 <p>SCAM Operator est une <b>satire éducative</b>. Les situations, personnages, monnaies et montants sont fictifs et le jeu n'enseigne pas de véritables techniques d'arnaque ; chaque situation affiche le « Vrai signal d'alerte » qui la démasque. Si tu as été victime d'une arnaque, signale-le à la police et contacte immédiatement ta banque.</p>
 
 <h2>11. Modifications</h2>
-<p>Si cette politique change, la date en haut sera mise à jour. La version en vigueur est toujours celle de cette page.</p>
+<p>Si cette politique change, la date en haut sera mise à jour. La version en vigueur est toujours celle de cette page. Cette politique est aussi incluse dans le jeu (Réglages → Général → Confidentialité et mes données) et peut être lue sans Internet.</p>
 </section>
 
 <section lang="de" class="card">
 <h1>Datenschutzerklärung</h1>
-<p class="mut">Zuletzt aktualisiert: 18. Oktober 2026</p>
+<p class="mut">Zuletzt aktualisiert: 19. Oktober 2026</p>
 
 <p>Diese Erklärung beschreibt, welche Informationen das Spiel <b>SCAM Operator</b> (die Android-App und die Webversion) verwendet und speichert. Kurz gesagt: <b>Das Spiel funktioniert ohne Konto, ohne Werbung und ohne Erhebung personenbezogener Daten</b>. Es gibt nur wenige Ausnahmen, alle unten beschrieben: die globale Rangliste (optional), anonyme Statistiken (optional und standardmäßig aus) und die Suche nach Spiel-Updates in der Android-App.</p>
 
 <h2>1. Wer ist verantwortlich</h2>
-<p>Paulo Cairrão — Kontakt: <a href="mailto:paulo.cairrao96@proton.me">paulo.cairrao96@proton.me</a></p>
+<p>Paulo Cairrão — Kontakt: <a href="mailto:scamoperatordev.related274@passinbox.com">scamoperatordev.related274@passinbox.com</a></p>
 
 <h2>2. Was nur auf deinem Gerät bleibt</h2>
 <ul>
   <li>Dein Fortschritt (Geld, Stufen, Erfolge, Einstellungen, Operator-Name, Sprache, Schwierigkeit, Serie der Tagesbelohnung, die Erinnerungsoption und die 3 Speicherplätze) wird <b>nur auf deinem Gerät</b> gespeichert (lokaler Speicher der App).</li>
   <li>Diese Informationen werden an niemanden gesendet. Wenn du die App deinstallierst oder in den Einstellungen „Alle Spieldaten löschen“ verwendest, werden sie gelöscht.</li>
+  <li>Das Spiel bewahrt außerdem nur auf deinem Gerät eine Sicherungskopie des letzten guten Spielstands jedes Slots auf und, falls du eine festlegst, die PIN, die das Casino sperrt (verschlüsselt gespeichert). Wenn du dein Spiel in einer Datei speicherst, bleibt die Datei dort, wo du sie ablegst.</li>
 </ul>
 
 <h2>3. Globale Rangliste (optional)</h2>
@@ -352,10 +361,11 @@ section[lang]{display:none}
 <ul>
   <li>den von dir gewählten <b>Operator-Namen</b> (bis zu 13 Zeichen; verwende nicht deinen echten Namen, wenn du das nicht möchtest), mit vorangestelltem 🪶, wenn du im Modus Leicht gespielt hast, oder 💀 bei Hardcore (Hardcore-Runs werden nur gesendet, wenn du gewinnst);</li>
   <li>dein Endvermögen, deine Spielzeit und die Anzahl deiner Fluchten;</li>
-  <li>eine <b>zufällige Spielkennung</b> (auf deinem Gerät erzeugt, nicht mit deiner Identität verknüpft), die Nummer eines vorgefertigten Satzes (der Schlusssatz deines Runs) und ein Datum.</li>
+  <li>eine <b>zufällige Spielkennung</b> (auf deinem Gerät erzeugt, nicht mit deiner Identität verknüpft), die Nummer eines vorgefertigten Satzes (der Schlusssatz deines Runs) und ein Datum;</li>
+  <li>einen zufälligen <b>Geräteschlüssel</b>, der auf deinem Gerät erzeugt wird. Der Server speichert davon nur eine verschlüsselte Fassung (einen SHA-256-Hash), die niemandem angezeigt wird; damit kannst du deine eigenen Einträge im Spiel löschen.</li>
 </ul>
 <p>Diese Daten dienen nur dazu, die Rangliste (Top 200) allen Spielern anzuzeigen. Der Server läuft auf der Plattform Cloudflare Workers. Um Missbrauch zu verhindern, wird deine IP-Adresse <b>vorübergehend</b> (etwa 60 Sekunden) verwendet, um die Häufigkeit der Übermittlungen zu begrenzen, und wird <b>nicht zusammen mit deinem Ergebnis gespeichert</b>.</p>
-<p>Ist die Option ausgeschaltet, wird nichts gesendet. Du kannst die Entfernung eines Eintrags verlangen, indem du an den oben genannten Kontakt schreibst und den verwendeten Operator-Namen angibst.</p>
+<p>Der Server prüft, ob Ergebnisse plausibel sind, und blendet beleidigende Namen aus. Ist die Option ausgeschaltet, wird nichts gesendet. Du kannst deine Einträge unter Einstellungen → Allgemein → Datenschutz und meine Daten löschen oder die Entfernung eines Eintrags verlangen, indem du an den oben genannten Kontakt schreibst und den verwendeten Operator-Namen angibst.</p>
 
 <h2>4. Anonyme Statistiken (optional, standardmäßig aus)</h2>
 <p>Diese Option ist <b>ausgeschaltet</b>. Das Spiel fragt dich eventuell einmal, ob du sie einschalten möchtest; ohne dein Ja wird nichts gesendet. Wenn du sie einschaltest (Einstellungen → Allgemein), sendet das Spiel ab und zu ein paar Spielzahlen an unseren Server, damit man sieht, wo es zu schwer, zu leicht oder langweilig ist:</p>
@@ -395,22 +405,23 @@ section[lang]{display:none}
 <p>SCAM Operator ist eine <b>lehrreiche Satire</b>. Die Situationen, Figuren, Münzen und Beträge sind frei erfunden, und das Spiel bringt keine echten Betrugstechniken bei; jede Situation zeigt das „Echte Warnsignal“, das sie entlarvt. Wenn du Opfer eines Betrugs geworden bist, erstatte Anzeige bei der Polizei und wende dich sofort an deine Bank.</p>
 
 <h2>11. Änderungen</h2>
-<p>Wenn sich diese Erklärung ändert, wird das Datum oben aktualisiert. Maßgeblich ist immer die Fassung auf dieser Seite.</p>
+<p>Wenn sich diese Erklärung ändert, wird das Datum oben aktualisiert. Maßgeblich ist immer die Fassung auf dieser Seite. Diese Erklärung ist auch im Spiel enthalten (Einstellungen → Allgemein → Datenschutz und meine Daten) und kann ohne Internet gelesen werden.</p>
 </section>
 
 <section lang="ru" class="card">
 <h1>Политика конфиденциальности</h1>
-<p class="mut">Последнее обновление: 18 октября 2026 г.</p>
+<p class="mut">Последнее обновление: 19 октября 2026 г.</p>
 
 <p>В этой политике объясняется, какую информацию использует и хранит игра <b>SCAM Operator</b> (приложение для Android и веб-версия). Коротко: <b>игра работает без аккаунта, без рекламы и без сбора персональных данных</b>. Исключений всего несколько, все они описаны ниже: глобальный рейтинг (по желанию), анонимная статистика (по желанию, по умолчанию выключена) и проверка обновлений игры в приложении для Android.</p>
 
 <h2>1. Кто отвечает за данные</h2>
-<p>Paulo Cairrão — контакт: <a href="mailto:paulo.cairrao96@proton.me">paulo.cairrao96@proton.me</a></p>
+<p>Paulo Cairrão — контакт: <a href="mailto:scamoperatordev.related274@passinbox.com">scamoperatordev.related274@passinbox.com</a></p>
 
 <h2>2. Что остаётся только на твоём устройстве</h2>
 <ul>
   <li>Твой прогресс (деньги, этапы, достижения, настройки, имя оператора, язык, сложность, серия ежедневной награды, настройка напоминания и 3 слота сохранения) хранится <b>только на твоём устройстве</b> (локальное хранилище приложения).</li>
   <li>Эта информация никому не отправляется. Если ты удалишь приложение или выберешь в настройках «Стереть все данные игры», она будет удалена.</li>
+  <li>Игра также хранит только на твоём устройстве резервную копию последнего исправного сохранения каждого слота и, если ты его задашь, PIN-код блокировки казино (в зашифрованном виде). Если ты сохранишь игру в файл, файл останется там, где ты выберешь.</li>
 </ul>
 
 <h2>3. Глобальный рейтинг (необязательно)</h2>
@@ -418,10 +429,11 @@ section[lang]{display:none}
 <ul>
   <li>выбранное тобой <b>имя оператора</b> (до 13 символов; не используй настоящее имя, если не хочешь), с 🪶 в начале, если ты играл на сложности «Лёгкая», или с 💀, если на сложности «Хардкор» (прохождения в «Хардкоре» отправляются только в случае победы);</li>
   <li>итоговые деньги, время игры и количество побегов;</li>
-  <li><b>случайный идентификатор</b> игры (создаётся на твоём устройстве и не связан с твоей личностью), номер заранее написанной фразы (заключительной цитаты твоего прохождения) и дату.</li>
+  <li><b>случайный идентификатор</b> игры (создаётся на твоём устройстве и не связан с твоей личностью), номер заранее написанной фразы (заключительной цитаты твоего прохождения) и дату;</li>
+  <li>случайный <b>ключ устройства</b>, созданный на твоём устройстве. Сервер хранит только его зашифрованную версию (хеш SHA-256), которая никому не показывается; с его помощью ты можешь удалить свои записи прямо из игры.</li>
 </ul>
 <p>Эти данные нужны только для того, чтобы показывать рейтинг (Топ-200) всем игрокам. Сервер работает на платформе Cloudflare Workers. Чтобы предотвратить злоупотребления, твой IP-адрес используется <b>временно</b> (около 60 секунд) для ограничения частоты отправки результатов и <b>не сохраняется</b> вместе с твоим результатом.</p>
-<p>Когда опция выключена, ничего не отправляется. Ты можешь попросить удалить запись, написав на контакт выше и указав использованное имя оператора.</p>
+<p>Сервер проверяет правдоподобность результатов и скрывает оскорбительные имена. Когда опция выключена, ничего не отправляется. Ты можешь удалить свои записи в Настройки → Общие → Конфиденциальность и мои данные или попросить удалить запись, написав на контакт выше и указав использованное имя оператора.</p>
 
 <h2>4. Анонимная статистика (по желанию, по умолчанию выключена)</h2>
 <p>Эта функция <b>выключена</b>. Игра может один раз спросить, хочешь ли ты её включить; без твоего согласия ничего не отправляется. Если включишь её (Настройки → Общие), игра будет иногда отправлять на наш сервер немного игровых чисел, чтобы понять, где слишком сложно, слишком легко или скучно:</p>
@@ -461,22 +473,23 @@ section[lang]{display:none}
 <p>SCAM Operator — это <b>образовательная сатира</b>. Ситуации, персонажи, монеты и суммы вымышлены, и игра не учит настоящим мошенническим приёмам; в каждой ситуации показан «Реальный тревожный сигнал», который её разоблачает. Если ты стал жертвой мошенников, сообщи в полицию и немедленно свяжись со своим банком.</p>
 
 <h2>11. Изменения</h2>
-<p>Если эта политика изменится, дата вверху будет обновлена. Действует всегда версия, опубликованная на этой странице.</p>
+<p>Если эта политика изменится, дата вверху будет обновлена. Действует всегда версия, опубликованная на этой странице. Эта политика также встроена в игру (Настройки → Общие → Конфиденциальность и мои данные) и доступна без интернета.</p>
 </section>
 
 <section lang="zh" class="card">
 <h1>隐私政策</h1>
-<p class="mut">最后更新：2026年10月18日</p>
+<p class="mut">最后更新：2026年10月19日</p>
 
 <p>本政策说明游戏 <b>SCAM Operator</b>（Android 应用和网页版）会使用和保存哪些信息。简而言之：<b>游戏无需账号、没有广告，也不收集个人数据</b>。只有少数例外，均在下文说明：全球排行榜（可选）、匿名统计（可选，默认关闭），以及 Android 应用中的游戏更新检查。</p>
 
 <h2>1. 负责人</h2>
-<p>Paulo Cairrão — 联系邮箱：<a href="mailto:paulo.cairrao96@proton.me">paulo.cairrao96@proton.me</a></p>
+<p>Paulo Cairrão — 联系邮箱：<a href="mailto:scamoperatordev.related274@passinbox.com">scamoperatordev.related274@passinbox.com</a></p>
 
 <h2>2. 仅保存在你设备上的内容</h2>
 <ul>
   <li>你的游戏进度（金钱、阶段、成就、设置、操作员名称、语言、难度、每日奖励连续天数、提醒选项以及 3 个存档位）<b>仅保存在你的设备上</b>（应用的本地存储）。</li>
   <li>这些信息不会发送给任何人。卸载应用，或在设置中使用“清除所有游戏数据”，即可将其删除。</li>
+  <li>游戏还会仅在你的设备上保存每个存档位最近一次完好存档的备份，以及你设置的赌场锁定 PIN（加密保存）。如果你把游戏保存为文件，文件会保留在你选择的位置。</li>
 </ul>
 
 <h2>3. 全球排行榜（可选）</h2>
@@ -484,10 +497,11 @@ section[lang]{display:none}
 <ul>
   <li>你选择的<b>操作员名称</b>（最多 13 个字符；如果不想公开真实姓名，请不要使用它），简单模式会在前面加 🪶，硬核模式会加 💀（硬核模式只有通关时才会发送）；</li>
   <li>你的最终金钱、游戏时长和逃跑次数；</li>
-  <li>一个<b>随机的游戏标识符</b>（在你的设备上生成，与你的身份无关）、一句预设语录（本局结尾语）的编号，以及一个日期。</li>
+  <li>一个<b>随机的游戏标识符</b>（在你的设备上生成，与你的身份无关）、一句预设语录（本局结尾语）的编号，以及一个日期；</li>
+  <li>一个在你设备上生成的随机<b>设备密钥</b>。服务器只保存它的加密版本（SHA-256 哈希），不会向任何人展示；它让你可以在游戏内删除自己的记录。</li>
 </ul>
 <p>这些数据仅用于向所有玩家展示排行榜（前 200 名）。服务器运行在 Cloudflare Workers 平台上。为防止滥用，你的 IP 地址会被<b>临时</b>使用（约 60 秒）来限制提交频率，并且<b>不会</b>与你的成绩一起保存。</p>
-<p>关闭该选项后，不会发送任何内容。你可以写信给上面的联系邮箱，并注明所使用的操作员名称，请求删除某条记录。</p>
+<p>服务器会检查成绩是否合理，并隐藏冒犯性名称。关闭该选项后，不会发送任何内容。你可以在 设置 → 通用 → 隐私与我的数据 中删除自己的记录，或写信给上面的联系邮箱并注明所使用的操作员名称，请求删除某条记录。</p>
 
 <h2>4. 匿名统计（可选，默认关闭）</h2>
 <p>此选项默认<b>关闭</b>。游戏可能会询问你一次是否开启；除非你同意，否则不会发送任何内容。如果你开启它（设置 → 常规），游戏会不定期向我们的服务器发送一些游戏数据，帮助了解哪里太难、太简单或无聊：</p>
@@ -527,7 +541,7 @@ section[lang]{display:none}
 <p>SCAM Operator 是一部<b>寓教于乐的讽刺作品</b>。其中的情境、角色、币种和金额均为虚构，游戏不会教授真实的诈骗手段；每个情境都会给出揭穿它的“真实的危险信号”。如果你遭遇了诈骗，请立即向警方报案并联系你的银行。</p>
 
 <h2>11. 变更</h2>
-<p>如果本政策发生变化，页面顶部的日期会随之更新。以本页面上的版本为准。</p>
+<p>如果本政策发生变化，页面顶部的日期会随之更新。以本页面上的版本为准。本政策也内置在游戏中（设置 → 通用 → 隐私与我的数据），无需联网即可阅读。</p>
 </section>
 </main>
 <script>
